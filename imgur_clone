@@ -1,0 +1,19 @@
+http://eugenedvorkin.com/mongodb-play-and-aws-developing-java-application-for-the-cloud/
+
+fs path
+creation timestamp
+last access timestamp (can rely on FS?)
+access count
+uploader (user)
+tags
+
+id
+image_id
+metadata
+  id #
+  title
+  image_url
+  material
+  creator
+  location
+  timestamp
