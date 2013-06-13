@@ -1,5 +1,8 @@
 http://eugenedvorkin.com/mongodb-play-and-aws-developing-java-application-for-the-cloud/
 
+Need a unique generator for each file (implement via actors?)
+store image type/extension?
+
 fs path
 creation timestamp
 last access timestamp (can rely on FS?)
