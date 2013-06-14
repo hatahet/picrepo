@@ -16,7 +16,5 @@ object Images extends Table[Image]("IMAGE") {
   def lastAccessTime = column[Timestamp]("LAST_ACCESS_TIME")
   def accessCount = column[Long]("ACCESS_COUNT")
   def creator = column[String]("CREATOR")
-  // def tags = column[String]("TAGS") // FIXME
   def * = id.? ~ name ~ fsPath ~ uri ~ lastAccessTime ~ accessCount ~ creator <> (Image, Image.unapply _)
- 
 }
